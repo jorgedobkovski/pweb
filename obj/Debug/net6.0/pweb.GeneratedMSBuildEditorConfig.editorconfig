@@ -11,37 +11,49 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = pweb
 build_property.RootNamespace = pweb
-build_property.ProjectDir = d:\Documentos\CURSOS\SAPIENS FACULDADE\pweb\
+build_property.ProjectDir = D:\Documentos\CURSOS\SAPIENS FACULDADE\pweb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Documentos\CURSOS\SAPIENS FACULDADE\pweb
+build_property.MSBuildProjectDirectory = D:\Documentos\CURSOS\SAPIENS FACULDADE\pweb
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/App.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/Counter.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Components/Lista.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaXN0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Components/MeuContador.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNZXVDb250YWRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/FetchData.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/Index.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Shared/MainLayout.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Pages/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Shared/NavMenu.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/_Imports.razor]
+[D:/Documentos/CURSOS/SAPIENS FACULDADE/pweb/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

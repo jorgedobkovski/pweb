@@ -1,0 +1,40 @@
+@page "/todo"
+
+<div>
+    <h1>Todo (@todos.Count(todo => !todo.EstaFeito))</h1>
+    <p>Coisas para fazer</p>
+    <ul>
+        @foreach (var item in todos){
+            <li>
+                <input type="checkbox" @bind="item.EstaFeito" />
+                @if(item.EstaFeito){
+                    <input @bind="item.Titulo" style="text-decoration:line-through;"/>
+                    
+                } else{
+                    
+                    <input @bind="item.Titulo">
+                }
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="mt-8">
+    <input placeholder="Insira um item" @bind="novoItem"/>
+    <button @onclick="AddTodo">Add</button>
+</div>
+@code{ 
+        private List<TodoItem> todos = new();
+
+        private string? novoItem;
+        private void AddTodo()
+        {
+            if (!string.IsNullOrWhiteSpace(novoItem)){
+            var todo = new TodoItem();
+            todo.Titulo = novoItem;
+            todos.Add(todo);
+            novoItem = string.Empty;
+            }            
+        }
+        
+}

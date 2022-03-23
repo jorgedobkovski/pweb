@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1314933999,
-        "Kind": "Components.Component",
-        "Name": "pweb.App",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.App"
-        }
-      },
-      {
-        "HashCode": -1010948946,
-        "Kind": "Components.Component",
-        "Name": "pweb.App",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 833901390,
         "Kind": "Components.Component",
         "Name": "pweb.Pages.Counter",
@@ -70,6 +37,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "pweb.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1177489933,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Index",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 402204367,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Index",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -107,35 +107,223 @@
         }
       },
       {
-        "HashCode": 1177489933,
+        "HashCode": -542503105,
         "Kind": "Components.Component",
-        "Name": "pweb.Pages.Index",
+        "Name": "pweb.Pages.Todo",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Index"
+          "Common.TypeName": "pweb.Pages.Todo"
         }
       },
       {
-        "HashCode": 402204367,
+        "HashCode": 688042308,
         "Kind": "Components.Component",
-        "Name": "pweb.Pages.Index",
+        "Name": "pweb.Pages.Todo",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "pweb.Pages.Index"
+            "TagName": "pweb.Pages.Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Index",
+          "Common.TypeName": "pweb.Pages.Todo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1314933999,
+        "Kind": "Components.Component",
+        "Name": "pweb.App",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.App"
+        }
+      },
+      {
+        "HashCode": -1010948946,
+        "Kind": "Components.Component",
+        "Name": "pweb.App",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2061233362,
+        "Kind": "Components.Component",
+        "Name": "pweb.Components.MeuContador",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MeuContador"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Inicial",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Inicial"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Incremento",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Incremento"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Components.MeuContador"
+        }
+      },
+      {
+        "HashCode": 1662507869,
+        "Kind": "Components.Component",
+        "Name": "pweb.Components.MeuContador",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Components.MeuContador"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Inicial",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Inicial"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Incremento",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Incremento"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Components.MeuContador",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1415811643,
+        "Kind": "Components.Component",
+        "Name": "pweb.Components.Lista",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Lista"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Titulo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Titulo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Components.Lista"
+        }
+      },
+      {
+        "HashCode": 904973636,
+        "Kind": "Components.Component",
+        "Name": "pweb.Components.Lista",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Components.Lista"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Titulo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Titulo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Components.Lista",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1623819070,
+        "Kind": "Components.Component",
+        "Name": "pweb.Shared.NavMenu",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1892517250,
+        "Kind": "Components.Component",
+        "Name": "pweb.Shared.NavMenu",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -232,39 +420,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "pweb.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1623819070,
-        "Kind": "Components.Component",
-        "Name": "pweb.Shared.NavMenu",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1892517250,
-        "Kind": "Components.Component",
-        "Name": "pweb.Shared.NavMenu",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -84164,9 +84319,19 @@
   "RootNamespace": "pweb",
   "Documents": [
     {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Components\\Lista.razor",
+      "TargetPath": "Components\\Lista.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Pages\\Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Shared\\NavMenu.razor",
@@ -84176,6 +84341,11 @@
     {
       "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Components\\MeuContador.razor",
+      "TargetPath": "Components\\MeuContador.razor",
       "FileKind": "component"
     },
     {

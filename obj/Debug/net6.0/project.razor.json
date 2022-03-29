@@ -8,138 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 833901390,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.Counter",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 1870414484,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.Counter",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1177489933,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.Index",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 402204367,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.Index",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2120149937,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.FetchData",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1614304034,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.FetchData",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -542503105,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.Todo",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Todo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Todo"
-        }
-      },
-      {
-        "HashCode": 688042308,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.Todo",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Pages.Todo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Todo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1314933999,
         "Kind": "Components.Component",
         "Name": "pweb.App",
@@ -169,6 +37,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "pweb.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1415811643,
+        "Kind": "Components.Component",
+        "Name": "pweb.Components.Lista",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Lista"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Titulo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Titulo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Components.Lista"
+        }
+      },
+      {
+        "HashCode": 904973636,
+        "Kind": "Components.Component",
+        "Name": "pweb.Components.Lista",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Components.Lista"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Titulo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Titulo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Components.Lista",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -242,55 +163,134 @@
         }
       },
       {
-        "HashCode": 1415811643,
+        "HashCode": 1177489933,
         "Kind": "Components.Component",
-        "Name": "pweb.Components.Lista",
+        "Name": "pweb.Pages.Index",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Lista"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Titulo",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Titulo"
-            }
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Components.Lista"
+          "Common.TypeName": "pweb.Pages.Index"
         }
       },
       {
-        "HashCode": 904973636,
+        "HashCode": 402204367,
         "Kind": "Components.Component",
-        "Name": "pweb.Components.Lista",
+        "Name": "pweb.Pages.Index",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "pweb.Components.Lista"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Titulo",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Titulo"
-            }
+            "TagName": "pweb.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Components.Lista",
+          "Common.TypeName": "pweb.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2120149937,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.FetchData",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1614304034,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.FetchData",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 833901390,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Counter",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 1870414484,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Counter",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -542503105,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Todo",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Todo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Todo"
+        }
+      },
+      {
+        "HashCode": 688042308,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Todo",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Pages.Todo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Todo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

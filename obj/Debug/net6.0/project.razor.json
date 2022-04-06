@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\pweb.csproj",
+  "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\pweb.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "6.0",
@@ -8,88 +8,107 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1314933999,
+        "HashCode": 445568852,
         "Kind": "Components.Component",
-        "Name": "pweb.App",
+        "Name": "pweb.Components.CourseItem",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.App"
-        }
-      },
-      {
-        "HashCode": -1010948946,
-        "Kind": "Components.Component",
-        "Name": "pweb.App",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1415811643,
-        "Kind": "Components.Component",
-        "Name": "pweb.Components.Lista",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Lista"
+            "TagName": "CourseItem"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Titulo",
+            "Name": "ItemId",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:pweb.Components.CourseItem.ItemId\">\r\n    <summary>\r\n    Define o Id do componente\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ItemId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:pweb.Components.CourseItem.Title\">\r\n    <summary>\r\n    Define o título do componente\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Titulo"
+              "Common.PropertyName": "Body"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Image",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Image"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Components.Lista"
+          "Common.TypeName": "pweb.Components.CourseItem"
         }
       },
       {
-        "HashCode": 904973636,
+        "HashCode": -68897990,
         "Kind": "Components.Component",
-        "Name": "pweb.Components.Lista",
+        "Name": "pweb.Components.CourseItem",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "pweb.Components.Lista"
+            "TagName": "pweb.Components.CourseItem"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Titulo",
+            "Name": "ItemId",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:pweb.Components.CourseItem.ItemId\">\r\n    <summary>\r\n    Define o Id do componente\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "ItemId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:pweb.Components.CourseItem.Title\">\r\n    <summary>\r\n    Define o título do componente\r\n    </summary>\r\n</member>\r\n",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Titulo"
+              "Common.PropertyName": "Body"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Image",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Image"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Components.Lista",
+          "Common.TypeName": "pweb.Components.CourseItem",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -163,68 +182,55 @@
         }
       },
       {
-        "HashCode": 1177489933,
+        "HashCode": 1415811643,
         "Kind": "Components.Component",
-        "Name": "pweb.Pages.Index",
+        "Name": "pweb.Components.Lista",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Lista"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Titulo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Titulo"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Index"
+          "Common.TypeName": "pweb.Components.Lista"
         }
       },
       {
-        "HashCode": 402204367,
+        "HashCode": 904973636,
         "Kind": "Components.Component",
-        "Name": "pweb.Pages.Index",
+        "Name": "pweb.Components.Lista",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "pweb.Pages.Index"
+            "TagName": "pweb.Components.Lista"
           }
         ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2120149937,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.FetchData",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+        "BoundAttributes": [
           {
-            "TagName": "FetchData"
+            "Kind": "Components.Component",
+            "Name": "Titulo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Titulo"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1614304034,
-        "Kind": "Components.Component",
-        "Name": "pweb.Pages.FetchData",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Pages.FetchData",
+          "Common.TypeName": "pweb.Components.Lista",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -262,6 +268,39 @@
         }
       },
       {
+        "HashCode": 2120149937,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.FetchData",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1614304034,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.FetchData",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -542503105,
         "Kind": "Components.Component",
         "Name": "pweb.Pages.Todo",
@@ -295,35 +334,68 @@
         }
       },
       {
-        "HashCode": -1623819070,
+        "HashCode": -706399863,
         "Kind": "Components.Component",
-        "Name": "pweb.Shared.NavMenu",
+        "Name": "pweb.Pages.Courses.Index",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Shared.NavMenu"
+          "Common.TypeName": "pweb.Pages.Courses.Index"
         }
       },
       {
-        "HashCode": -1892517250,
+        "HashCode": 498230586,
         "Kind": "Components.Component",
-        "Name": "pweb.Shared.NavMenu",
+        "Name": "pweb.Pages.Courses.Index",
         "AssemblyName": "pweb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "pweb.Shared.NavMenu"
+            "TagName": "pweb.Pages.Courses.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Shared.NavMenu",
+          "Common.TypeName": "pweb.Pages.Courses.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1177489933,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Index",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 402204367,
+        "Kind": "Components.Component",
+        "Name": "pweb.Pages.Index",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -420,6 +492,72 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "pweb.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1623819070,
+        "Kind": "Components.Component",
+        "Name": "pweb.Shared.NavMenu",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1892517250,
+        "Kind": "Components.Component",
+        "Name": "pweb.Shared.NavMenu",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1314933999,
+        "Kind": "Components.Component",
+        "Name": "pweb.App",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.App"
+        }
+      },
+      {
+        "HashCode": -1010948946,
+        "Kind": "Components.Component",
+        "Name": "pweb.App",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -84319,53 +84457,63 @@
   "RootNamespace": "pweb",
   "Documents": [
     {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Components\\Lista.razor",
-      "TargetPath": "Components\\Lista.razor",
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Components\\CourseItem.razor",
+      "TargetPath": "Components\\CourseItem.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\_Imports.razor",
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Pages\\Todo.razor",
-      "TargetPath": "Pages\\Todo.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Components\\MeuContador.razor",
-      "TargetPath": "Components\\MeuContador.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Pages\\Counter.razor",
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Pages\\FetchData.razor",
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\Pages\\Index.razor",
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Components\\MeuContador.razor",
+      "TargetPath": "Components\\MeuContador.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Pages\\Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Pages\\Courses\\Index.razor",
+      "TargetPath": "Pages\\Courses\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\Components\\Lista.razor",
+      "TargetPath": "Components\\Lista.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     }
   ],

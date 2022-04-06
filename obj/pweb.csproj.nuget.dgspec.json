@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\pweb.csproj": {}
+    "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\pweb.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\pweb.csproj": {
+    "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\pweb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\pweb.csproj",
+        "projectUniqueName": "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\pweb.csproj",
         "projectName": "pweb",
-        "projectPath": "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\pweb.csproj",
+        "projectPath": "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\pweb.csproj",
         "packagesPath": "C:\\Users\\JVD\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\pweb\\obj\\",
+        "outputPath": "D:\\Documentos\\CURSOS\\SAPIENS FACULDADE\\PROGWEB\\pweb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JVD\\AppData\\Roaming\\NuGet\\NuGet.Config"

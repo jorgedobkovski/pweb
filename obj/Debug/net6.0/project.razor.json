@@ -400,6 +400,72 @@
         }
       },
       {
+        "HashCode": -1314933999,
+        "Kind": "Components.Component",
+        "Name": "pweb.App",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.App"
+        }
+      },
+      {
+        "HashCode": -1010948946,
+        "Kind": "Components.Component",
+        "Name": "pweb.App",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1623819070,
+        "Kind": "Components.Component",
+        "Name": "pweb.Shared.NavMenu",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1892517250,
+        "Kind": "Components.Component",
+        "Name": "pweb.Shared.NavMenu",
+        "AssemblyName": "pweb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "pweb.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "pweb.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1549398265,
         "Kind": "Components.Component",
         "Name": "pweb.Shared.MainLayout",
@@ -492,72 +558,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "pweb.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1623819070,
-        "Kind": "Components.Component",
-        "Name": "pweb.Shared.NavMenu",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1892517250,
-        "Kind": "Components.Component",
-        "Name": "pweb.Shared.NavMenu",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1314933999,
-        "Kind": "Components.Component",
-        "Name": "pweb.App",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.App"
-        }
-      },
-      {
-        "HashCode": -1010948946,
-        "Kind": "Components.Component",
-        "Name": "pweb.App",
-        "AssemblyName": "pweb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "pweb.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "pweb.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
